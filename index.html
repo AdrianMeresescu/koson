@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>// Koson.tech</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main class="view">
+    <h1 class="title">
+		Koson.tech
+		<small> // coming soon</small>
+	</h1>
+
+    <div class="window">
+      <div class="window-header">
+        <div class="action-buttons"></div>
+        <select class="language">
+				<option value="javascript" selected>JavaScript</option>
+				<option value="markup">HTML</option>
+				<option value="php">PHP</option>
+			</select>
+      </div>
+      <div class="window-body">
+        <textarea class="code-input">// You can play around while we  :)                         ↑↑↑↑↑↑
+// are busy imagining what the site will look like.
+
+function greetings(name){
+    name = name || "stranger";
+    return "Hello, " + name + "!";
+}
+
+window.onLoad = alert(greetings());</textarea>
+        <pre class="code-output">
+				<code class="language-javascript">
+
+				</code>
+			</pre>
+      </div>
+    </div>
+    <div class="credits">
+      *thanks to <a href="https://codepen.io/kazzkiq/pen/xGXaKR">Claudio Holanda</a> for the idea.
+    </div>
+  </main>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js'></script>
+
+
+
+  <script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
